@@ -4,8 +4,9 @@ import theards
 import random
 import times
 
-print("""\033[070m
 os.system("clear")
+print("""\033[070m
+
  
  
 ╔═╗─╔╗──────╔╗
@@ -62,4 +63,4 @@ def naybae2():
         th.start()
     else:
         th = threading.Thread(target = felix2)
-        th.start()
+        th.start
