@@ -1,7 +1,5 @@
 import os
-
 import choice
-
 import theards
 import random
 import times
@@ -60,8 +58,8 @@ def naybae2():
             
  for a in range(threds):
     if choice == "y":
-        th = threading.Thread(target = naybae)
+        th = threading.Thread(target = felix)
         th.start()
     else:
-        th = threading.Thread(target = naybae2)
-        th.start
+        th = threading.Thread(target = felix2)
+        th.start()
